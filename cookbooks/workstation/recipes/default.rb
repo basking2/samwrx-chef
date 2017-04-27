@@ -6,3 +6,4 @@
 #
 
 include_recipe 'workstation::packages'
+include_recipe 'workstation::user'
