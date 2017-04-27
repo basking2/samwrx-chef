@@ -1,0 +1,8 @@
+{
+  "name": "workstation",
+  "description": "A basic workstation.",
+  "run_list": [
+    "recipe[common]",
+    "recipe[workstation]"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "i5.samnet",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "run_list": [
+    "role[workstation]"
+  ]
+}
