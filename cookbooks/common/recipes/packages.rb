@@ -1,4 +1,5 @@
 
+package 'ruby'
 package 'vim'
 package 'samba'
 
@@ -26,3 +27,9 @@ service 'nmb' do
 	action :start
 end
 
+
+gem_package 'jekyll'
+gem_package 'asciidoctor'
+gem_package 'jekyll-paginate'
+gem_package 'mechanize'
+gem_package 'mp3info'
