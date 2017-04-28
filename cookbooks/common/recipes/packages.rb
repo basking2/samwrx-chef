@@ -2,6 +2,7 @@
 package 'ruby'
 package 'vim'
 package 'samba'
+package 'make'
 
 service 'sshd' do
 	action :enable
