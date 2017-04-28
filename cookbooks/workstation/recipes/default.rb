@@ -7,3 +7,4 @@
 
 include_recipe 'workstation::packages'
 include_recipe 'workstation::user'
+include_recipe 'workstation::user_systemd'

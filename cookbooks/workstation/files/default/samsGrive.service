@@ -1,0 +1,10 @@
+# ~/.local/share/systemd/user
+
+[Unit]
+Description=Update Google Drive folders.
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/grive -p "Google Drive WX" ; /usr/bin/grive -p "Google Drive"
+
+

@@ -1,0 +1,11 @@
+# ~/.local/share/systemd/user
+
+[Unit]
+Description=samsDailyMail service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ruby src/tools/scripts/samsDailyMail.rb -p -v
+
+[Install]
+WantedBy=network-online.target

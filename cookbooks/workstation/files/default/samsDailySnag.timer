@@ -1,0 +1,13 @@
+# ~/.local/share/systemd/user
+
+[Unit]
+Description=samsDailySnag timer
+#Requires=network-online.target
+
+[Timer]
+OnStartupSec=1
+Persistent=1
+OnCalendar=7,8,13:00:00
+
+[Install]
+WantedBy=timers.target

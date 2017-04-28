@@ -1,0 +1,13 @@
+# ~/.local/share/systemd/user
+
+[Unit]
+Description=samsDailyMail timer
+#Requires=network-online.target
+
+[Timer]
+OnStartupSec=1
+Persistent=1
+OnCalendar=*:55:00
+
+[Install]
+WantedBy=timers.target
