@@ -8,3 +8,5 @@
 include_recipe 'workstation::packages'
 include_recipe 'workstation::user'
 include_recipe 'workstation::user_systemd'
+include_recipe 'workstation::selinux'
+include_recipe 'workstation::firewall'
