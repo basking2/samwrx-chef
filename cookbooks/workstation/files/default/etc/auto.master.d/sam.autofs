@@ -1,0 +1,16 @@
+# Qualys Mounts
+/mnt/netapp file:/etc/auto.master.d/netapp.map
+/mnt/netfiles file:/etc/auto.master.d/netfiles.map
+
+# Laptop
+/mnt/battery file:/etc/auto.master.d/battery.map
+
+# Raspberry Pi
+/mnt/pi file:/etc/auto.master.d/pi.map
+/mnt/pi3 file:/etc/auto.master.d/pi3.map
+
+# Work machine
+/mnt/sbaskinger file:/etc/auto.master.d/sbaskinger.map
+
+# Local disks - often direct mounts.
+/- file:/etc/auto.master.d/green-drive.map

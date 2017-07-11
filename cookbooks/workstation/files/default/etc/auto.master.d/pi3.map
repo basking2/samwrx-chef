@@ -1,0 +1,2 @@
+# SSH - connects through root account.
+sda1 -fstype=fuse,allow_other,rw,uid=$UID,gid=$GID,workaround=all,idmap=user :sshfs#sam@192.168.0.7:/mnt/sda1

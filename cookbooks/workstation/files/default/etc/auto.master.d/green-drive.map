@@ -1,0 +1,1 @@
+/mnt/greendrive-data -fstype=auto :/dev/disk/by-label/greendrive-data
