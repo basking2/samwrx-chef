@@ -29,6 +29,12 @@ service 'nmb' do
 end
 
 
+package 'ruby-devel'
+package 'libffi-devel'
+package 'redhat-rpm-config'
+package 'gcc-c++'
+package 'zlib-devel'
+
 gem_package 'jekyll'
 gem_package 'asciidoctor'
 gem_package 'jekyll-paginate'
